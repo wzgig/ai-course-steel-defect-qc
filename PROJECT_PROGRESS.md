@@ -59,3 +59,21 @@ GitHub：
 
 - GitHub Pages 只能托管静态展示页，不能运行 Streamlit 服务。
 - 交互式网站仍需本地运行 `python -m streamlit run app.py`。
+
+## 2026-06-24 run.bat 启动修复
+
+操作者：Codex
+
+问题：用户双击 `run.bat` 时窗口一闪而过，且不会自动打开网页。
+
+原因与处理：
+
+- `.streamlit/config.toml` 中 `headless = true` 会阻止 Streamlit 自动打开浏览器。
+- 旧版 `run.bat` 没有主动打开浏览器，也没有处理 8501 端口已有服务的情况。
+- 已重写 `run.bat`：自动查找 `py -3` 或 `python`，检查 Streamlit 是否安装，检测 8501 是否已有服务，自动打开 `http://localhost:8501`，并在错误或已有服务场景下停留窗口显示提示。
+
+验证：
+
+- `cmd /c "echo. | run.bat"` 通过。
+- `python -m py_compile app.py` 通过。
+- `http://localhost:8501` 返回 200 OK。
