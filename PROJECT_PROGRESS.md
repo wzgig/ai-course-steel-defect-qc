@@ -32,3 +32,30 @@
 
 - 团队成员、学号、班级、团队编号和提交日期仍需人工补充。
 - 最终提交压缩包和演示视频仍未处理，按用户要求暂不进入该阶段。
+
+## 2026-06-24 本地 Skill 与 GitHub 发布
+
+操作者：Codex
+
+目标：将当前人工智能基础课程大作业工作流沉淀为本地 Codex skill，并把项目推送到 GitHub 公开仓库，同时启用 GitHub Pages 静态展示页。
+
+主要变更：
+
+- 新增本地 skill：`C:\Users\Zicheng Wang\.codex\skills\ai-course-project-workflow`。
+- skill 包含 `SKILL.md`、`references/assignment_workflow.md`、`references/github_pages.md`、`scripts/init_ai_course_project.py`。
+- 已用 `quick_validate.py` 校验 skill，通过。
+- 新增 `data/samples/` 六张轻量示例图和 `samples.csv`，便于公开仓库克隆后直接演示。
+- 新增 `.gitignore`，排除完整原始数据集、压缩包、缓存、本地 agent/Codex 目录和原始课程通知。
+- 新增 `docs/index.html` 与 `docs/assets/`，用于 GitHub Pages 静态展示。
+
+GitHub：
+
+- 公开仓库：`https://github.com/wzgig/ai-course-steel-defect-qc`
+- GitHub Pages：`https://wzgig.github.io/ai-course-steel-defect-qc/`
+- Pages 来源：`main` 分支 `/docs` 目录。
+- Pages 状态：`built`，访问返回 200 OK。
+
+说明：
+
+- GitHub Pages 只能托管静态展示页，不能运行 Streamlit 服务。
+- 交互式网站仍需本地运行 `python -m streamlit run app.py`。

@@ -36,6 +36,13 @@ http://localhost:8501
 03_项目代码包\项目名称_团队编号\run.bat
 ```
 
+## GitHub
+
+- 公开仓库：`https://github.com/wzgig/ai-course-steel-defect-qc`
+- GitHub Pages 静态展示页：`https://wzgig.github.io/ai-course-steel-defect-qc/`
+
+说明：GitHub Pages 展示的是静态项目介绍页，不能直接运行 Streamlit。交互式网站仍需按上方命令在本地启动。
+
 ## 关键文档
 
 - 作业要求：`01_任务管理/作业要求提取.md`
