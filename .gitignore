@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and secrets
+.env
+.venv/
+venv/
+.streamlit/secrets.toml
+*.log
+
+# Local Codex/agent runtime folders
+.codex/
+.agents/
+
+# Temporary outputs
+tmp/
+
+# Large or reproducible raw datasets
+03_项目代码包/*/data/raw/
+03_项目代码包/*/data/**/*.zip
+
+# Original course notices kept local only
+《人工智能基础B》期末大作业布置通知.pdf
+关于人工智能基础A、B课程考核的通知.png
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

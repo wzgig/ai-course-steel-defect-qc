@@ -1,0 +1,7 @@
+image_path,class_name,class_name_zh,source
+data/samples/crazing_108.jpg,crazing,龟裂,NEU-CLS sample
+data/samples/inclusion_101.jpg,inclusion,夹杂,NEU-CLS sample
+data/samples/patches_103.jpg,patches,斑块,NEU-CLS sample
+data/samples/pitted_surface_10.jpg,pitted_surface,麻点表面,NEU-CLS sample
+data/samples/rolled-in_scale_10.jpg,rolled-in_scale,轧入氧化皮,NEU-CLS sample
+data/samples/scratches_106.jpg,scratches,划痕,NEU-CLS sample

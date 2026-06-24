@@ -1,0 +1,7 @@
+﻿class_name,class_name_zh,train,val,test,total
+crazing,龟裂,210,45,45,300
+inclusion,夹杂,210,45,45,300
+patches,斑块,210,45,45,300
+pitted_surface,麻点表面,210,45,45,300
+rolled-in_scale,轧入氧化皮,210,45,45,300
+scratches,划痕,210,45,45,300

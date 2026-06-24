@@ -1,0 +1,38 @@
+{
+  "crazing": {
+    "train": 210,
+    "val": 45,
+    "test": 45,
+    "total": 300
+  },
+  "inclusion": {
+    "train": 210,
+    "val": 45,
+    "test": 45,
+    "total": 300
+  },
+  "patches": {
+    "train": 210,
+    "val": 45,
+    "test": 45,
+    "total": 300
+  },
+  "pitted_surface": {
+    "train": 210,
+    "val": 45,
+    "test": 45,
+    "total": 300
+  },
+  "rolled-in_scale": {
+    "train": 210,
+    "val": 45,
+    "test": 45,
+    "total": 300
+  },
+  "scratches": {
+    "train": 210,
+    "val": 45,
+    "test": 45,
+    "total": 300
+  }
+}
